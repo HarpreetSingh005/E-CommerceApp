@@ -1,0 +1,21 @@
+{
+  "name": "e-com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js",
+    "dev": "nodemon main.js"
+  },
+  "author": "Harpreet Singh",
+  "dependencies": {
+    "ejs": "*",
+    "express": "*",
+    "express-session": "*",
+    "mongodb": "*",
+    "mongoose": "*",
+    "multer": "*",
+    "nodemon": "^2.0.15"
+  }
+}
